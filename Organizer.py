@@ -21,6 +21,7 @@ if os.path.exists(target_folder):
     print("Folder organized successfully!")
 else:
     print("Folder path not found.")
+    #copy this code in your vsc code 
 #just give the folder path and run. it will automatically organize the files in that folder in to subfolders based on their file extensions.
 # like .jpg files will go into jpg_files folder, 
 # .txt files will go into txt_files folder and so on.
